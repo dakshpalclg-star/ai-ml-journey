@@ -33,7 +33,7 @@ def rev_str(s1):
 
 def count_vowels(s2):
     ct = 0
-    vowels = ('a','e','i','o','u')
+    vowels = "aeiouAEIOU"
     for i in s2:
         if i in vowels:
             ct+=1
