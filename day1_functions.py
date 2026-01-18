@@ -1,7 +1,7 @@
 # 1 --> Check even or odd
 
 def is_even(n1):
-    if n1//2==0:
+    if n1%2==0:
         print(f"{n1} is an even number")
     else:
         print(f"{n1} is not an even number")
