@@ -12,11 +12,11 @@ def is_even(n1):
 # --> i will do with both of them (i will do with max function and if elif statements. again there are many methods to it)
 
 def max_of_three(a,b,c):
-    if a>b and a>c:
+    if a>=b and a>=c:
         print(f"{a} is the greatest of the three")
-    elif b>a and b>c:
+    elif b>=a and b>=c:
         print(f"{b} is the greatest of the three")
-    elif c>a and c>b:
+    elif c>=a and c>=b:
         print(f"{c} is the greatest of the three")
 # a=int(input("enter the first number"))
 # b=int(input("enter the second number"))
